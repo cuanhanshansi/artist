@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/test.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+	<title>小艺术家艺术学校</title>
+</head>
+<body>
+	<div class="contain">
+		<header>
+			<div class="top1">
+				
+					<span class="pull-left">您好，小艺术家艺术学校欢迎您！ &nbsp;&nbsp;网址：<a href="http://www.xysj.com">www.xysj.com</a></span>
+					<span class="pull-right"><a href="#">收藏本站&nbsp;&nbsp; </a><a href="#">网站地图&nbsp;&nbsp; </a><a href="#">触屏版</a></span>
+				
+			</div>
+
+			<div class="top2">
+				<a href="#"><img src="images/logo.png" alt="logo"></a>
+				<a href="#"><img src="images/qingchun.png" alt="" style="float: right;"></a>
+				<a href="#"><img src="images/dianhua.png" alt="联系方式" style="float: right;"></a>
+
+			</div>
+
+		</header><!--header end-->
+
+		<nav class="daohang">
+			<ul>
+				<li><a href="#">网站首页</a></li>
+				<li><a href="#">学校概况</a></li>
+				<li><a href="#">专业设置</a></li>
+				<li><a href="#">教学展示</a></li>
+				<li><a href="#">师资力量</a></li>
+				<li><a href="#">校区建设</a></li>
+				<li><a href="#">艺考培训</a></li>
+				<li><a href="#">咨询动态</a></li>
+				<li><a href="#">合作加盟</a></li>
+				<li><a href="#">联系我们</a></li>
+			</ul>
+		</nav><!--nav end-->
+		<div class="banner">
+			<img src="images/banner.png" alt="">
+		</div><!--banner end-->
+
+		<div class="search">
+			<div class="search-bg">
+				<span>重点推荐：<a href="#">少儿美术</a> &nbsp;<a href="#">少儿形体</a></span>
+				<span class="pull-right">
+					<input placeholder="请输入搜索关键字" onfocus="javascript:if(placeholder=='请输入搜索关键字') placeholder=''"
+					style="border:none;" />
+					<a href="#"><img src="images/search.png" alt="search" style="margin-left: -4px;margin-top: -4px;"></a>
+				</span>
+			</div>
+		</div><!--search end-->
+
+		<div class="content">
+			<div class="maodian">
+				<div class="fz-circle">
+					<div class="circle"><a href="#zy">专业设置</a></div>
+					<div class="circle"><a href="#xx">学校简介</a></div>
+					<div class="circle"><a href="#sz">师资力量</a></div>
+					<div class="circle"><a href="#jx">教学展示</a></div>
+					<div class="circle"><a href="#kh">客户反馈</a></div>
+				</div>
+			</div>
+
+			<div class="zysz" id="zy">
+				<span>专业设置</span>
+				<ul id="myTab" class="nav nav-tabs nav-stacked">
+				   <li><a href="#msb" data-toggle="tab">小艺术家美术部</a></li>
+				   <li><a href="#wdb" data-toggle="tab">小艺术家舞蹈部</a></li>
+				   <li><a href="#yyb" data-toggle="tab">小艺术家音乐部</a></li>
+				   <li><a href="#sfb" data-toggle="tab">小艺术家书法部</a></li>
+				   <li><a href="#tqb" data-toggle="tab">小艺术家跆拳部</a></li>
+				</ul>
+				<div id="myTabContent" class="tab-content neirong">
+				   <div class="tab-pane fade in active" id="msb">
+				      <div class="word-bg">
+				      	<p>小艺术家美术班</p>
+				      	<p>THE LITTLE ARTIST FRIENDS</p>
+				      </div>
+				   </div>
+				   <div class="tab-pane fade" id="wdb">
+				      <div class="word-bg">
+				      	<p>小艺术家舞蹈班</p>
+				      	<p>THE LITTLE ARTIST FRIENDS</p>
+				      </div>
+				   </div>
+				   <div class="tab-pane fade" id="yyb">
+				      <div class="word-bg">
+				      	<p>小艺术家音乐班</p>
+				      	<p>THE LITTLE ARTIST FRIENDS</p>
+				      </div>
+				   </div>
+				   <div class="tab-pane fade" id="sfb">
+				      <div class="word-bg">
+				      	<p>小艺术家书法班</p>
+				      	<p>THE LITTLE ARTIST FRIENDS</p>
+				      </div>
+				   </div>
+				   <div class="tab-pane fade" id="tqb">
+				      <div class="word-bg">
+				      	<p>小艺术家跆拳班</p>
+				      	<p>THE LITTLE ARTIST FRIENDS</p>
+				      </div>
+				   </div>
+				</div>
+
+				<div class="more"><a href="#">查看更多</a></div>
+
+				<script>
+				   $(function(){
+				      $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+				      // 获取已激活的标签页的名称
+				      var activeTab = $(e.target).text(); 
+				      // 获取前一个激活的标签页的名称
+				      var previousTab = $(e.relatedTarget).text(); 
+				      $(".active-tab span").html(activeTab);
+				      $(".previous-tab span").html(previousTab);
+				   });
+				});
+				</script>
+			</div>
+
+			<div class="xxjj" id="xx">
+				<img src="images/cont-001.jpg" alt="cont-001.jpg" class="img-responsive">
+				<img src="images/cont-002.png" alt="cont-002.png" class="img-responsive">
+				<img src="images/cont-003.png" alt="cont-003.png" class="img-responsive">
+				<img src="images/cont-004.png" alt="cont-004.png" class="img-responsive">
+				<img src="images/cont-005.png" alt="cont-005.png" class="img-responsive">
+				<img src="images/cont-006.png" alt="cont-006.png" class="img-responsive">
+				<img src="images/cont-007.png" alt="cont-007.png" class="img-responsive">
+				<img src="images/cont-008.png" alt="cont-008.png" class="img-responsive">
+				<img src="images/cont-009.png" alt="cont-009.png" class="img-responsive">
+				<img src="images/cont-010.png" alt="cont-010.png" class="img-responsive">
+			</div>
+
+			<div class="szll" id="sz">
+				<span>师资力量</span>
+				<div class="container jsjj">
+					
+					   <div class="row">
+					      <div class="col-sm-3">
+					      	<p>	  姓名：刘晶晶</p>
+							<p>	  职称：教学主任（美术部负责人）</p>
+  							<p>	  毕业院校：安徽省安庆师范学院</p>
+							<p>	  专业：美术</p>
+							<p>	  学位：学士学位</p>
+							<p>	  工作经历：2011—2013安庆市小精灵画室担任美术教师</p>
+          					<p>	  2013—今 六安市小艺术家艺术学校担任美术教师</p>
+          					
+					      </div>
+					      <div class="col-sm-3">
+					      	<img src="images/刘晶晶.jpg" alt="刘晶晶" />
+					      </div>
+					      <div class="col-sm-3">
+					      	<p>	  姓名：蔡传俊</p>
+							<p>	  职称：舞蹈教师</p>
+  							<p>	  毕业院校：北京盛基阳光国标舞艺术学校</p>
+							<p>	  专业：拉丁、中国舞</p>
+							<p>	  学位：本科</p>
+							<p>	  资质：中国国标舞总会CBDF拉丁舞A级教师，中国舞蹈家
+										协会注册教师，中国舞蹈家协会7-8级教师资格，
+										中国舞蹈家协会9-10级教师资格。</p>
+					      </div>
+					      <div class="col-sm-2">
+					      	<img src="images/蔡传俊.jpg" alt="蔡传俊">
+					      </div>      
+					   </div>
+
+					   <div class="row">
+					   	  <div class="col-sm-3">
+					      	<p>	  姓名：代婧熙</p>
+							<p>	  职称：钢琴老师</p>
+							<p>	  学历：本科</p>
+							<p>	  
+								资质：2010年考入皖西学院音乐学院钢琴专业
+									  2012年现任六安市小艺术家艺术学校钢琴教师
+									  2014年荣获高级教师资格
+									  工作经验丰富所带学员在市、省甚至全国各项比赛中成绩突出。
+									  2014年获全市优秀教师称号。
+							</p>
+          					
+					      </div>
+					      <div class="col-sm-3">
+					      	<img src="images/代婧熙.jpg" alt="代婧熙" />
+					      </div>
+					      <div class="col-sm-3">
+					      	<p>	  姓名：吴云晴</p>
+							<p>	  职称：美术教师</p>
+  							<p>	  毕业院校：安徽省皖西学院</p>
+							<p>	  专业：美术</p>
+							<p>	  学位：学士学位</p>
+							<p>	  工作经历：2012-03—2013-06 美术基础培训班  2014-05—今
+								            大风车幼儿园美术老师2015-06—今小艺术家艺术
+								            学校美术老
+							</p>
+					      </div>
+					      <div class="col-sm-2">
+					      	<img src="images/吴云晴.jpg" alt="吴云晴">
+					      </div>
+					   </div>
+					
+				</div>
+				<div class="more more1"><a href="#">查看更多</a></div>
+			</div>
+
+			<div class="jxzs" id="jx">
+				<p>儿童画—至真至纯、至善至美</p>
+				<div class="p-la">引导孩子挥动想象力的翅膀，激发孩子描绘世界的热情。锻炼孩子观察
+				   世界把握事物的能力。培养孩子绘画兴趣，让美术成为孩子的童年玩伴。
+				   素描：朴素的我—素描是古老的、朴素的、基础的
+				   缤纷的你—它表达的都是生活的、自然的、艺术的
+				</div>
+				<img src="images/pic003.png" alt="pic003" />
+				<img src="images/pic004.png" alt="pic004" />
+				<img src="images/pic007.png" alt="pic007" />
+				<img src="images/pic002.png" alt="pic002" />
+				<img src="images/pic001.png" alt="pic001" />
+				<img src="images/pic008.png" alt="pic008" />
+				<div class="more more2"><a href="#">查看更多</a></div>	
+			</div>
+
+			<div class="khfk"></div>
+		
+
+		</div><!--content end-->
+
+		<footer>
+			<div style="width:697px;height:550px;border:#ccc solid 1px; float: left;" id="dituContent"></div>
+			<script type="text/javascript">
+			    //创建和初始化地图函数：
+			    function initMap(){
+			        createMap();//创建地图
+			        setMapEvent();//设置地图事件
+			        addMapControl();//向地图添加控件
+			        addMarker();//向地图中添加marker
+			    }
+			    
+			    //创建地图函数：
+			    function createMap(){
+			        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+			        var point = new BMap.Point(116.485598,31.720156);//定义一个中心点坐标
+			        map.centerAndZoom(point,18);//设定地图的中心点和坐标并将地图显示在地图容器中
+			        window.map = map;//将map变量存储在全局
+			    }
+			    
+			    //地图事件设置函数：
+			    function setMapEvent(){
+			        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+			        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+			        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+			        map.enableKeyboard();//启用键盘上下左右键移动地图
+			    }
+			    
+			    //地图控件添加函数：
+			    function addMapControl(){
+			        //向地图中添加缩放控件
+				var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+				map.addControl(ctrl_nav);
+			        //向地图中添加缩略图控件
+				var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:0});
+				map.addControl(ctrl_ove);
+			        //向地图中添加比例尺控件
+				var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT});
+				map.addControl(ctrl_sca);
+			    }
+			    
+			    //标注点数组
+			    var markerArr = [{title:"小艺术家艺术学校",content:"小艺术家艺术学校",point:"116.48456|31.719772",isOpen:1,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
+					 ];
+			    //创建marker
+			    function addMarker(){
+			        for(var i=0;i<markerArr.length;i++){
+			            var json = markerArr[i];
+			            var p0 = json.point.split("|")[0];
+			            var p1 = json.point.split("|")[1];
+			            var point = new BMap.Point(p0,p1);
+						var iconImg = createIcon(json.icon);
+			            var marker = new BMap.Marker(point,{icon:iconImg});
+						var iw = createInfoWindow(i);
+						var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+10,-20)});
+						marker.setLabel(label);
+			            map.addOverlay(marker);
+			            label.setStyle({
+			                        borderColor:"#808080",
+			                        color:"#333",
+			                        cursor:"pointer"
+			            });
+						
+						(function(){
+							var index = i;
+							var _iw = createInfoWindow(i);
+							var _marker = marker;
+							_marker.addEventListener("click",function(){
+							    this.openInfoWindow(_iw);
+						    });
+						    _iw.addEventListener("open",function(){
+							    _marker.getLabel().hide();
+						    })
+						    _iw.addEventListener("close",function(){
+							    _marker.getLabel().show();
+						    })
+							label.addEventListener("click",function(){
+							    _marker.openInfoWindow(_iw);
+						    })
+							if(!!json.isOpen){
+								label.hide();
+								_marker.openInfoWindow(_iw);
+							}
+						})()
+			        }
+			    }
+			    //创建InfoWindow
+			    function createInfoWindow(i){
+			        var json = markerArr[i];
+			        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+			        return iw;
+			    }
+			    //创建一个Icon
+			    function createIcon(json){
+			        var icon = new BMap.Icon("http://app.baidu.com/map/images/us_mk_icon.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+			        return icon;
+			    }
+			    
+			    initMap();//创建和初始化地图
+			</script>
+			<div class="map01"></div>
+		</footer><!--footer end-->
+		<div class="copy">
+			<p>友情链接：
+				百度&nbsp;&nbsp;|
+				&nbsp;&nbsp;搜狐&nbsp;&nbsp;|
+				&nbsp;&nbsp;域名空间&nbsp;&nbsp;|
+				&nbsp;&nbsp;网站优化&nbsp;&nbsp;|
+				&nbsp;&nbsp;百度糯米&nbsp;&nbsp;|
+				&nbsp;&nbsp;徽商网
+			</p>
+			<p>小艺术家艺术学校 版权所有 免责声明 <a href="http://www.miibeian.gov.cn/" target="_blank">皖ICP备12005623号</a></p>
+			<p>地址：六安市城南镇水岸名城对面皖西大市场10栋2楼 </p>
+			<p> 电话：0564-3612654  手机：15357191441/15357191442/15357191443 </p>
+			<p>设计制作：燕华科技</p>
+		</div>
+
+
+
+
+	</div><!--container end-->
+
+
+	<script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
